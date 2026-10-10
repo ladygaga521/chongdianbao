@@ -20,7 +20,7 @@
  * 注意：服务端渲染的 app/index.php 会自己注入 window.PB_CONFIG = { apiBase: '' }，
  * 所以走 /index.php 时永远是同源，不受这里影响。
  */
-var PROD_API = '';
+var PROD_API = 'https://chongdian.mytunnel.org';
 
 window.PB_CONFIG = window.PB_CONFIG || {
   apiBase: PROD_API || '/'
